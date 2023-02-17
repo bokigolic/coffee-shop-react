@@ -134,6 +134,10 @@ footer {
   background-color: rgba(182, 182, 182, 0.7);
 }
 
+.modal.opened {
+  display: block;
+}
+
 .modal-content {
   display: flex;
   flex-direction: row;
