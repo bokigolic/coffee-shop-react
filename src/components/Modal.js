@@ -4,7 +4,6 @@ const Modal = (props) => {
   const opened = props.opened;
   const toggleModalOpened = props.toggleModalOpened
 
-  const niz3komada = [1, 1, 1, 1]
 
   const menuData = [
     {
