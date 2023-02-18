@@ -4,7 +4,8 @@ const MenuItem = (props) => {
     <>
       <div>
         <abbr title={item.name}><img id="americano" src={item.imgSrc} alt={item.name} className="modal-image" /></abbr>
-        <div id="za-size">
+        {/*
+      <div id="za-size">
           <label for="size">Select size:</label><br />
           <select id="size" name="size" className="select-style">
             <option value="small">Small</option>
@@ -19,6 +20,7 @@ const MenuItem = (props) => {
             <option value="oat">Oat</option>
           </select>
         </div>
+      */}
       </div>
     </>
   )
