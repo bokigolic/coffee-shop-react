@@ -5,8 +5,6 @@ import Modal from "./Modal";
 const CoffeeLayout = () => {
   const [modalOpened, setModalOpened] = useState(false);
 
-
-
   const toggleModalOpened = (e) => {
     e.stopPropagation();
     if (modalOpened) {
@@ -14,6 +12,10 @@ const CoffeeLayout = () => {
     } else {
       setModalOpened(true)
     }
+  }
+
+  const handleClick = () => {
+
   }
 
   return (
@@ -36,12 +38,12 @@ const CoffeeLayout = () => {
         <div>
 
 
+
         </div>
 
         <footer>
-          <div className="buttons">
-            <button className="location">Find a Location</button>
-          </div>
+
+
         </footer>
 
       </div>
